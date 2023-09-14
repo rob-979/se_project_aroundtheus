@@ -1,21 +1,16 @@
 # Project 3: Around The U.S.
 
-### Overview  
+### Overview
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+- project description.
+- list of technologies used.
+- link to the deployed project(git hub).
+
+**Project Description**
+In this project we will be making a base like a social media photo platform where you can upload picture that you have been around the US. The users then can like the picture and show it off to the WORLD!!
+
+**list of technologies**
+the type of technologies we used in this project so far is some HTML and CSS styling to style the platform and have it where things should go, But there will be more technologies added soon.
+
+**link to the deployed project(github)**
+link: (https://rob-979.github.io/se_project_aroundtheus/)
