@@ -45,10 +45,10 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 620px) {
+/* @media screen and (max-width: 620px) {
   .card__header {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
   }
-}
+} */

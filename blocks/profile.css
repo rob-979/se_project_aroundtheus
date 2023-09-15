@@ -67,7 +67,7 @@
   width: 150px;
   margin-left: auto;
   border: 2px solid #fff;
-  border-radius: 2%;
+  border-radius: 2px;
 }
 
 .profile__add-button:hover {
@@ -100,12 +100,7 @@
     font-size: 22px;
     line-height: normal;
     text-align: center;
-    font-family: "Inter", arial, sans-serif;
     font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    max-width: 240px;
   }
 
   .profile__info {
@@ -120,10 +115,7 @@
 
   .profile__description {
     text-align: center;
-    font-family: Inter;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin: 0;
   }
