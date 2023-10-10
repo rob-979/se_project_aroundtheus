@@ -1,8 +1,5 @@
-.footer {
-}
-
 .footer__copyright {
-  margin-left: 197px;
+  margin-left: 175px;
   margin-top: 67px;
   color: #545454;
   font-family: "Inter", arial, sans-serif;
@@ -16,7 +13,7 @@
 @media screen and (max-width: 800px) {
   .footer__copyright {
     padding: 0;
-    margin-left: 105px;
+    margin-left: 88px;
     font-size: 14px;
   }
 }
