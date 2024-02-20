@@ -1,0 +1,139 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+  padding: 0 19px;
+}
+
+.modal__opened {
+  display: flex;
+}
+
+.modal__container {
+  position: relative;
+  padding: 36px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 430px;
+  height: 330px;
+}
+
+.modal__close {
+  background-image: url(../images/Close_Icon_active.svg);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__input {
+  margin-bottom: 30px;
+  max-width: 358px;
+  height: 27px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  font-style: normal;
+}
+
+.modal__heading {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 54px;
+}
+
+.modal__input:last-of-type {
+  margin-bottom: 0px;
+}
+
+.modal__button {
+  margin-top: 48px;
+  width: 358px;
+  height: 51px;
+  background-color: #000;
+  color: white;
+  border-radius: 2px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+}
+
+@media screen and (max-width: 620px) {
+  .modal__container {
+    width: 400px;
+    height: 300px;
+    padding: 25px 24px;
+  }
+
+  .modal__button {
+    width: 358px;
+    height: 40px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal__container {
+    max-width: 282px;
+    max-height: 322px;
+  }
+
+  .modal__heading {
+    max-width: 238px;
+    max-height: 22px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .modal__input {
+    max-width: 238px;
+    max-height: 27px;
+  }
+
+  .modal__button {
+    max-width: 238px;
+    max-height: 46px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .modal__close {
+    max-width: 26px;
+    max-height: 26px;
+    top: -50px;
+    left: 253px;
+  }
+}
